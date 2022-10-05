@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -18,21 +19,21 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegisteringActivity extends AppCompatActivity {
 
-    private ConstraintLayout btnAlreadyReg;
     EditText inputFirstName, inputLastName, inputEmail,inputPhone, inputPassword, inputConfirmPassword;
     Button btnSignUp;
+    TextView btnAlreadyHaveAccount;
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     ProgressDialog progressDialog;
-    
+
     FirebaseAuth myAuth;
     FirebaseUser myUser;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_registering);
 
         inputFirstName=findViewById(R.id.inputFirstName);
         inputLastName=findViewById(R.id.inputLastName);
@@ -41,11 +42,11 @@ public class RegisterActivity extends AppCompatActivity {
         inputPassword=findViewById(R.id.inputPassword);
         inputConfirmPassword=findViewById(R.id.inputConfirmPassword);
         btnSignUp=findViewById(R.id.btnSignUp);
-        btnAlreadyReg=findViewById(R.id.btnAlreadyReg);
+        btnAlreadyHaveAccount=findViewById(R.id.txtAlreadyHaveAccount);
         progressDialog=new ProgressDialog(this);
         myAuth=FirebaseAuth.getInstance();
         myUser=myAuth.getCurrentUser();
-        
+
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,10 +54,10 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        btnAlreadyReg.setOnClickListener(new View.OnClickListener() {
+        btnAlreadyHaveAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                startActivity(new Intent(RegisteringActivity.this, LoginActivity.class));
             }
         });
     }
@@ -99,25 +100,25 @@ public class RegisterActivity extends AppCompatActivity {
                     if (task.isSuccessful()){
                         progressDialog.dismiss();
                         sendUserToNextActivity();
-                        Toast.makeText(RegisterActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RegisteringActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
                     }
                     else {
                         progressDialog.dismiss();
-                        Toast.makeText(RegisterActivity.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RegisteringActivity.this, ""+task.getException(), Toast.LENGTH_SHORT).show();
                     }
                 }
             });
         }
     }
 
-    private void sendUserToNextActivity() {
-        Intent intent=new Intent(RegisterActivity.this, LoginActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-    }
-
     private void showError(EditText input, String s) {
         input.setError(s);
         input.requestFocus();
+    }
+
+    private void sendUserToNextActivity() {
+        Intent intent=new Intent(RegisteringActivity.this, LoginActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }

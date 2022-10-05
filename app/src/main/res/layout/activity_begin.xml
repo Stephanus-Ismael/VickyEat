@@ -59,37 +59,39 @@
         app:layout_constraintTop_toTopOf="@+id/materialToolbar"
         app:layout_constraintVertical_bias="0.114" />
 
-    <TextView
-        android:id="@+id/txtAlreadySignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Already have an account?"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialToolbar2"
-        app:layout_constraintVertical_bias="0.138" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/materialToolbar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="169dp"
-            android:layout_height="166dp"
+            android:layout_width="150dp"
+            android:layout_height="145dp"
             android:src="@drawable/logo6"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.346" />
+            app:layout_constraintVertical_bias="0.309" />
+
+        <TextView
+            android:id="@+id/txtAlreadySignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.632" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -127,7 +129,7 @@
         android:layout_marginStart="145dp"
         android:layout_marginTop="590dp"
         android:layout_marginEnd="146dp"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

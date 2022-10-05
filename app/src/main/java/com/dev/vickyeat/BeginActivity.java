@@ -22,7 +22,7 @@ public class BeginActivity extends AppCompatActivity {
         regBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(BeginActivity.this, RegisterActivity.class));
+                startActivity(new Intent(BeginActivity.this, RegisteringActivity.class));
             }
         });
 
