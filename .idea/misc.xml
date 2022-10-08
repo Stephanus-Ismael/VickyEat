@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/black_btn.xml" value="0.2035" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background.xml" value="0.227" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background1.xml" value="0.227" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background2.xml" value="0.227" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background3.xml" value="0.227" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background4.xml" value="0.227" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/ic_phone.xml" value="0.227" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/input_fields.xml" value="0.2035" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/light_black_btn.xml" value="0.2035" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/orange_button.xml" value="0.2035" />
@@ -15,9 +21,11 @@
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_intro.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_main.xml" value="0.24230072463768115" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_menu.xml" value="0.2921195652173913" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_register.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_registering.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_start.xml" value="0.22" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/viewholder_category.xml" value="0.2914529914529915" />
       </map>
     </option>
   </component>
