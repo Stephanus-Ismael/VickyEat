@@ -7,8 +7,8 @@
     tools:context=".Test">
 
     <LinearLayout
-        android:layout_width="580dp"
-        android:layout_height="421dp"
+        android:layout_width="571dp"
+        android:layout_height="423dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="287dp">\
