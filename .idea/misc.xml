@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/black_btn.xml" value="0.2035" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cart_background.xml" value="0.2395" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background.xml" value="0.227" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background1.xml" value="0.227" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background2.xml" value="0.227" />
@@ -15,17 +16,29 @@
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/orange_button.xml" value="0.2035" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/orange_light_banner.xml" value="0.2035" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/search_background.xml" value="0.2035" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/viewholder_popular.xml" value="0.2395" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/white_button.xml" value="0.2035" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_bacon_egg.xml" value="0.3179347826086957" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_begin.xml" value="0.33" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_breakfast.xml" value="0.25" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_cart.xml" value="0.3179347826086957" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_checkout.xml" value="0.3179347826086957" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_current_orders.xml" value="0.3179347826086957" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_delivery_address.xml" value="0.3179347826086957" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_home.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_intro.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_main.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_menu.xml" value="0.2921195652173913" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_past_orders.xml" value="0.3179347826086957" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_payment.xml" value="0.3179347826086957" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_profile.xml" value="0.3179347826086957" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_register.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_registering.xml" value="0.24230072463768115" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_show_detail.xml" value="0.3179347826086957" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_start.xml" value="0.22" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/viewholder_category.xml" value="0.2914529914529915" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/viewholder_popular.xml" value="0.3179347826086957" />
       </map>
     </option>
   </component>
@@ -38,7 +51,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.24230072463768115" />
+        <option name="scale" value="0.3179347826086957" />
       </ProjectState>
     </option>
   </component>
