@@ -3,11 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/John/StudioProjects/VickyEat/app/src/main/res/layout/activity_breakfast.xml" value="0.22" />
-        <entry key="..\:/Users/John/StudioProjects/VickyEat/app/src/main/res/layout/activity_home.xml" value="0.21" />
-        <entry key="..\:/Users/John/StudioProjects/VickyEat/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/John/StudioProjects/VickyEat/app/src/main/res/layout/activity_lunch.xml" value="0.1408514492753623" />
-        <entry key="..\:/Users/John/StudioProjects/VickyEat/app/src/main/res/layout/activity_test.xml" value="0.33" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/black_btn.xml" value="0.2035" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cart_background.xml" value="0.2395" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/drawable/cat_background.xml" value="0.227" />
@@ -32,6 +27,7 @@
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_delivery_address.xml" value="0.3179347826086957" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_home.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_intro.xml" value="0.24230072463768115" />
+        <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_listmenu.xml" value="0.25" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_main.xml" value="0.24230072463768115" />
         <entry key="..\:/dev/advancedSoftware/VickyEat/app/src/main/res/layout/activity_menu.xml" value="0.2921195652173913" />

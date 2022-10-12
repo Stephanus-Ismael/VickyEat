@@ -98,11 +98,11 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintStart_toEndOf="@+id/bactToBreakfastBtn"
         app:layout_constraintTop_toBottomOf="@+id/imageView24" />
 
     <ImageView
-        android:id="@+id/imageView28"
+        android:id="@+id/bactToBreakfastBtn"
         android:layout_width="33dp"
         android:layout_height="27dp"
         android:layout_marginStart="16dp"

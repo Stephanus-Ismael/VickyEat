@@ -64,7 +64,7 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/breakfastMenuBtn"
         android:layout_width="275dp"
         android:layout_height="148dp"
         android:textAlignment="center"

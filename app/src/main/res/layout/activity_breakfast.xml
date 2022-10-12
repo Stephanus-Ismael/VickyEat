@@ -62,7 +62,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.389"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/menuToHomeBtn"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <ImageView
@@ -77,7 +77,7 @@
         app:srcCompat="@drawable/logo2" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/backToMenuBtn"
         android:layout_width="36dp"
         android:layout_height="29dp"
         android:layout_marginStart="8dp"
@@ -118,7 +118,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view27" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/baconInfoBtn"
         android:layout_width="32dp"
         android:layout_height="29dp"
         android:layout_marginTop="28dp"
@@ -166,7 +166,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view28" />
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/scrambledInfoBtn"
         android:layout_width="38dp"
         android:layout_height="31dp"
         android:layout_marginTop="28dp"
@@ -202,7 +202,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view29" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/toastInfoBtn"
         android:layout_width="36dp"
         android:layout_height="28dp"
         android:layout_marginTop="32dp"
@@ -238,7 +238,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view30" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/fattyInfoBtn"
         android:layout_width="36dp"
         android:layout_height="27dp"
         android:layout_marginTop="32dp"
@@ -274,7 +274,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view31" />
 
     <ImageView
-        android:id="@+id/imageView34"
+        android:id="@+id/boiledInfoBtn"
         android:layout_width="34dp"
         android:layout_height="31dp"
         android:layout_marginTop="40dp"

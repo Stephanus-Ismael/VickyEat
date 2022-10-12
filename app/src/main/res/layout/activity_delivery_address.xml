@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView77" />
 
     <ImageView
-        android:id="@+id/imageView54"
+        android:id="@+id/addressToProfileBtn"
         android:layout_width="34dp"
         android:layout_height="29dp"
         android:layout_marginStart="24dp"
@@ -71,6 +71,6 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.389"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/menuToHomeBtn"
         app:layout_constraintTop_toBottomOf="@+id/imageView53" />
 </androidx.constraintlayout.widget.ConstraintLayout>
