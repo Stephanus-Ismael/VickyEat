@@ -1,29 +1,67 @@
 package com.dev.vickyeat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.dev.vickyeat.Adaptor.CategoryAdaptor;
 import com.dev.vickyeat.Domain.CategoryDomain;
-import com.dev.vickyeat.Domain.FoodDomain;
 
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private RecyclerView.Adapter adapter, adapter2;
-    private RecyclerView recyclerViewCategoryList, recyclerViewPopularList;
+    private RecyclerView.Adapter adapter;
+    private RecyclerView recyclerViewCategoryList;
+    private LinearLayout menuBtn;
+    private LinearLayout ordersBtn;
+    private LinearLayout profileBtn;
+    private ConstraintLayout placeOrderBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        menuBtn=findViewById(R.id.menuBtn);
+        ordersBtn=findViewById(R.id.ordersBtn);
+        profileBtn=findViewById(R.id.profileBtn);
+        placeOrderBtn=findViewById(R.id.placeOrderBtn);
         recyclerViewCategory();
-        recyclerViewPopular();
+
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, MenuActivity.class));
+            }
+        });
+
+        ordersBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, CurrentOrdersActivity.class));
+            }
+        });
+
+        profileBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, ProfileActivity.class));
+            }
+        });
+
+        placeOrderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, MenuActivity.class));
+            }
+        });
     }
 
     private void recyclerViewCategory() {
@@ -39,17 +77,5 @@ public class HomeActivity extends AppCompatActivity {
 
         adapter = new CategoryAdaptor(category);
         recyclerViewCategoryList.setAdapter(adapter);
-    }
-    private void recyclerViewPopular(){
-        LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-        recyclerViewPopularList=findViewById(R.id.recycleView2);
-        recyclerViewPopularList.setLayoutManager(linearLayoutManager);
-
-        ArrayList<FoodDomain> foodList=new ArrayList<>();
-        foodList.add(new FoodDomain( "Pepperoni pizza", "pizza1", "Slices pepperoni, mozzerella cheese, fresh oregano, ground black pepper, pizza sauce", 10.85));
-        foodList.add(new FoodDomain( "Cheese Burger", "burger", "Beef, Gouda Cheese, Special Sauce, Lettuce, Tomato", 25.50));
-        foodList.add(new FoodDomain( "Vegetable pizza", "pizza2", "Olive Oil, Vegetable Oil, Pitted Kalamata, Cherry Tomatoes, fresh oregano, Basil", 8.72));
-
-        recyclerViewPopularList.setAdapter(adapter2);
     }
 }
